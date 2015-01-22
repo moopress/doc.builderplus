@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            MedicalPlus
 locale:           en_US
-url:              
+url:              http://moopress.github.io/doc.medicalplus/
 
 
 # Jekyll configuration
@@ -26,9 +26,9 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: MooPress
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "WordPress Theme Makers"
   email: 
   disqus-shortname: 
   twitter: #username
