@@ -13,6 +13,9 @@ image:
 
 Before you get started creating your site using **Zebu**, you'll need to **setup your WordPress environment**. Zebu requires *WordPress v4.1* or greater. For more information on setting up you WordPress environment please refer to [WordPress Codex "Installing WordPress" entry](http://codex.wordpress.org/Installing_WordPress). If you're experiencing difficulty setting up you WordPress install, you'll need to contact your **hosting company** or your **local system administrator**.
 
+## PHP Configuration
+If your server is running PHP `v5.6`, you will need to specify `always_populate_raw_post_data = -1` in your `php.ini` file and reload your web server. This addresses a known bug with the default PHP `v5.6` configuration. For more information on this issue, please see [this blog post](https://www.bram.us/2014/10/26/php-5-6-automatically-populating-http_raw_post_data-is-deprecated-and-will-be-removed-in-a-future-version/). If you find yourself unable to modify your `php.ini` file, please contact your hosting service or site manager.
+
 # Getting Started
 
 ## Installing The Theme
@@ -63,13 +66,10 @@ The Demo Content Import populates and configures your site content with commonly
  3. Wait on the page until the feedback indicates that the import is complete.
  4. Your site will be populated and configured with demo content now.
 
-![Initial Demo Import Page](https://lh6.googleusercontent.com/-HSrzjLylGYU/VLQxjkavldI/AAAAAAAAAJY/npU6ssggxog/s0/Moo+Demo+Import+%E2%80%B9+MedicalPlus+%E2%80%94+WordPress+--+initial.png "Moo Demo Import ‹ MedicalPlus — WordPress -- initial.png")
+![MooDemo Import Dashboard](https://lh3.googleusercontent.com/-y_qHs0zTXzU/VNTqkLymRnI/AAAAAAAAAMI/yIuzphiI3aY/s0/MooDemo+Import+%E2%80%B9+MedicalPlus+%E2%80%94+WordPress.png "MooDemo Import")
 *Demo Import initial page*
 
 ----
-
-![Import complete](https://lh6.googleusercontent.com/-EEfqxcvLs5w/VLQy7i8DmpI/AAAAAAAAAJw/iL5RXB5FdvQ/s0/Moo+Demo+Import+%E2%80%B9+MedicalPlus+%E2%80%94+WordPress+--+complete.png "Moo Demo Import ‹ MedicalPlus — WordPress -- complete.png")
-*Import complete feedback*
 
 # Configuring Your Site
 
