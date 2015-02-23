@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MedicalPlus Documentation
+title: LawyerPlus Documentation
 modified: 2014-07-31T13:23:02.362000-04:00
 excerpt: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
 image:
@@ -11,7 +11,7 @@ image:
 
 # Prerequisites
 
-Before you get started creating your site using **MedicalPlus**, you'll need to **setup your WordPress environment**. MedicalPlus requires *WordPress v4.1* or greater. For more information on setting up you WordPress environment please refer to [WordPress Codex "Installing WordPress" entry](http://codex.wordpress.org/Installing_WordPress). If you're experiencing difficulty setting up you WordPress install, you'll need to contact your **hosting company** or your **local system administrator**.
+Before you get started creating your site using **LawyerPlus**, you'll need to **setup your WordPress environment**. LawyerPlus requires *WordPress v4.1* or greater. For more information on setting up you WordPress environment please refer to [WordPress Codex "Installing WordPress" entry](http://codex.wordpress.org/Installing_WordPress). If you're experiencing difficulty setting up you WordPress install, you'll need to contact your **hosting company** or your **local system administrator**.
 
 ## PHP Configuration
 If your server is running PHP `v5.6`, you will need to specify `always_populate_raw_post_data = -1` in your `php.ini` file and reload your web server. This addresses a known bug with the default PHP `v5.6` configuration. For more information on this issue, please see [this blog post](https://www.bram.us/2014/10/26/php-5-6-automatically-populating-http_raw_post_data-is-deprecated-and-will-be-removed-in-a-future-version/). If you find yourself unable to modify your `php.ini` file, please contact your hosting service or site manager.
@@ -31,7 +31,7 @@ If your server is running PHP `v5.6`, you will need to specify `always_populate_
 **Note:** If you encounter a `style.css not found` error on trying to install the theme, that means that the package you uploaded is the incorrect package. Make sure that you're using the `medicalplus.zip` file from **inside the unzipped package** (*eg.* `<themeforest_unzipped_packaged>/medicalplus.zip`).
 
 ## Install Required Plugins
-MedicalPlus relies on a number of plugins to provide functionality. In order to install the plugins associated with the theme:
+LawyerPlus relies on a number of plugins to provide functionality. In order to install the plugins associated with the theme:
 
  1. Navigate to `Appearance > Install Plugins` in the admin dashboard 
  4.  Check all the plugins in the list by clicking the top-left most checkbox in the table header.
@@ -41,17 +41,17 @@ MedicalPlus relies on a number of plugins to provide functionality. In order to 
  8.  Click the `Bulk Actions` select control, choose the `Activate` option and click the `Apply` 
  9.  A notice `The following plugins were activated successfully: ...`
 
-![Install Required Plugins](https://lh5.googleusercontent.com/-RVogUao5W4k/VLQt-DuMXpI/AAAAAAAAAI0/U5eSCsImwoc/s0/Install+Required+Plugins+%E2%80%B9+MedicalPlus+%E2%80%94+WordPress+--+Install.png "Install Required Plugins ‹ MedicalPlus — WordPress -- Install.png")
+![Install Required Plugins](https://lh5.googleusercontent.com/-RVogUao5W4k/VLQt-DuMXpI/AAAAAAAAAI0/U5eSCsImwoc/s0/Install+Required+Plugins+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress+--+Install.png "Install Required Plugins ‹ LawyerPlus — WordPress -- Install.png")
 *Install Required Plugins Page (Install)*
 
 ----
 
-![Installation Feedback](https://lh4.googleusercontent.com/--Yrp2RAj6uw/VLQv5N0_dVI/AAAAAAAAAJI/AlRaXJ8zA3g/s0/Install+Required+Plugins+%E2%80%B9+MedicalPlus+%E2%80%94+WordPress+--+Feedback.png "Install Required Plugins ‹ MedicalPlus — WordPress -- Feedback.png")
+![Installation Feedback](https://lh4.googleusercontent.com/--Yrp2RAj6uw/VLQv5N0_dVI/AAAAAAAAAJI/AlRaXJ8zA3g/s0/Install+Required+Plugins+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress+--+Feedback.png "Install Required Plugins ‹ LawyerPlus — WordPress -- Feedback.png")
 *Install Required Plugins Page (Feedback)*
 
 ----
 
-![Activate Required Plugins](https://lh6.googleusercontent.com/-IK1YLsuNle0/VLQtAJ9x03I/AAAAAAAAAIo/B3Yaelydup0/s0/Install+Required+Plugins+%E2%80%B9+MedicalPlus+%E2%80%94+WordPress.png "Install Required Plugins ‹ MedicalPlus — WordPress.png")
+![Activate Required Plugins](https://lh6.googleusercontent.com/-IK1YLsuNle0/VLQtAJ9x03I/AAAAAAAAAIo/B3Yaelydup0/s0/Install+Required+Plugins+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress.png "Install Required Plugins ‹ LawyerPlus — WordPress.png")
 *Install Required Plugins Page (Activate)*
 
 ## Using The One-Click Importer
@@ -66,7 +66,7 @@ The Demo Content Import populates and configures your site content with commonly
  3. Wait on the page until the feedback indicates that the import is complete.
  4. Your site will be populated and configured with demo content now.
 
-![MooDemo Import Dashboard](https://lh3.googleusercontent.com/-y_qHs0zTXzU/VNTqkLymRnI/AAAAAAAAAMI/yIuzphiI3aY/s0/MooDemo+Import+%E2%80%B9+MedicalPlus+%E2%80%94+WordPress.png "MooDemo Import")
+![MooDemo Import Dashboard](https://lh3.googleusercontent.com/-y_qHs0zTXzU/VNTqkLymRnI/AAAAAAAAAMI/yIuzphiI3aY/s0/MooDemo+Import+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress.png "MooDemo Import")
 *Demo Import initial page*
 
 ----
@@ -75,7 +75,7 @@ The Demo Content Import populates and configures your site content with commonly
 
 ## Widget Areas
 
-MedicalPlus provides five widget areas. **Blog Sidebar** -- is the sidebar that's on the blog page. **Footer Column 1-4** are displayed in the footer area. To modify the widgets displayed on the site:
+LawyerPlus provides five widget areas. **Blog Sidebar** -- is the sidebar that's on the blog page. **Footer Column 1-4** are displayed in the footer area. To modify the widgets displayed on the site:
 
 1. Navigate to `Appearance > Widgets`
 2. Click and drag desired widgets to appropriate Widget Locations
@@ -86,14 +86,14 @@ MedicalPlus provides five widget areas. **Blog Sidebar** -- is the sidebar that'
 Google Fonts provides a library of custom fonts that allow you to customize the font on your site. There are lots of Google Fonts, so you will need to select which ones you want to make available on your site. In order to select your fonts:
 
 1. Navigate to `MooFonts` at the top level of the admin dashboard menu
-2. If there are no fonts previewed on the page, click the `Refresh Font List` button in the top right of the page. ![Refresh](https://lh3.googleusercontent.com/-189jEE_zKHE/VLQ0tOpKtmI/AAAAAAAAAKE/2ukJX46NTWs/s0/MooFonts+%E2%80%B9+MedicalPlus+%E2%80%94+WordPress.png "MooFonts ‹ MedicalPlus — WordPress.png")
+2. If there are no fonts previewed on the page, click the `Refresh Font List` button in the top right of the page. ![Refresh](https://lh3.googleusercontent.com/-189jEE_zKHE/VLQ0tOpKtmI/AAAAAAAAAKE/2ukJX46NTWs/s0/MooFonts+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress.png "MooFonts ‹ LawyerPlus — WordPress.png")
 3. Browse the fonts by scrolling up and down the page. If you have a particular font in mind, use the search box in order to filter the fonts.
 4. Once you've decided on a font, click its associated `Add to collection` button
 5. This will add the font to the `Your Font Collection` display on the right side of the page.
 6. For the font you've added, select the font variants you want available on your site. By selecting the variant checkboxes and the clicking the associated `Save Settings` button.
 7. The font & the selected variants will now be available on the site.
 
-![Populated](https://lh5.googleusercontent.com/-hZHFk2wDNAs/VLQ1XB7IXrI/AAAAAAAAAKQ/mB90BBfB7zc/s0/MooFonts+%E2%80%B9+MedicalPlus+%E2%80%94+WordPress+--+populated.png "MooFonts ‹ MedicalPlus — WordPress -- populated.png")
+![Populated](https://lh5.googleusercontent.com/-hZHFk2wDNAs/VLQ1XB7IXrI/AAAAAAAAAKQ/mB90BBfB7zc/s0/MooFonts+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress+--+populated.png "MooFonts ‹ LawyerPlus — WordPress -- populated.png")
 *Populated Fonts*
 
 ### Configuring/Customizing Site Fonts
@@ -108,7 +108,7 @@ Google Fonts provides a library of custom fonts that allow you to customize the 
 *Customize Fonts*
 
 ## Icon Sets
-A number of the shortcodes available when using MedicalPlus, involve icons. By default, the **Font Awesome** icon set is available for use with these shortcodes. In addition to the default icons, you can add icon sets from [Icon Moon](https://icomoon.io). Download a **Font** icon package from Icomoon. To import the package:
+A number of the shortcodes available when using LawyerPlus, involve icons. By default, the **Font Awesome** icon set is available for use with these shortcodes. In addition to the default icons, you can add icon sets from [Icon Moon](https://icomoon.io). Download a **Font** icon package from Icomoon. To import the package:
 
 1. Navigate to `MooIcons`
 2. Click the `Upload Icon Set` button at the top right of the page
@@ -133,10 +133,10 @@ Contact Form 7 is a plugin that allows for the creation of contact forms on your
 
 ----
 
-**NOTE:** Configuration of **email sending is not controlled by MedicalPlus**. If your site is up and running but not sending email, you will need to contact your hosting provider in order to configure and troubleshoot your email sending system.
+**NOTE:** Configuration of **email sending is not controlled by LawyerPlus**. If your site is up and running but not sending email, you will need to contact your hosting provider in order to configure and troubleshoot your email sending system.
 
 ## Customizer
-MedicalPlus provides its site options through the WordPress Customizer. To access the customizer, navigate to `Appearance > Customize` in the admin dashboard. The options that are added by MedicalPlus are organized into panels that can be accessed by clicking on the headers associated with the panels. 
+LawyerPlus provides its site options through the WordPress Customizer. To access the customizer, navigate to `Appearance > Customize` in the admin dashboard. The options that are added by LawyerPlus are organized into panels that can be accessed by clicking on the headers associated with the panels. 
 
 ### Customizer Options
 
@@ -267,7 +267,7 @@ MedicalPlus provides its site options through the WordPress Customizer. To acces
  7. In the second row, edit the marker location of the Google Map element
 
 ## Page MetaBox Options
-MedicalPlus provides a number of page level options to customize the look of individual pages:
+LawyerPlus provides a number of page level options to customize the look of individual pages:
 
 * **Hide Subheader** -- hides the subheader page element
 * **Subheader Background Color** -- sets the background color of the subheader element
@@ -278,7 +278,7 @@ MedicalPlus provides a number of page level options to customize the look of ind
 ![Page Metabox](https://lh4.googleusercontent.com/-Y8lrTSqyzmo/VLVAFmXwdpI/AAAAAAAAALg/EE_sytUSM2w/s0/page-metabox.png "page-metabox.png")
 
 ## Page Templates
-MedicalPlus supplies three page templates: 
+LawyerPlus supplies three page templates: 
 
 * Full Width --  a full width page template that has no sidebar
 * Left Sidebar -- a page with a left sidebar
@@ -302,22 +302,22 @@ For general information on page templates and how to use them in WordPress, see 
 * **Styled Divider** -- a styled horizontal divider for splitting up sections
 
 #Modifying The Theme
-Direct code modifications of MedicalPlus are highly discouraged. The recommended way of making modifications to the theme are through the usage of a Child Theme.
+Direct code modifications of LawyerPlus are highly discouraged. The recommended way of making modifications to the theme are through the usage of a Child Theme.
 
 ## Child Theme
 If you are unfamiliar with the concept of a child theme, please refer to the [WordPress Codex entry on Child Themes](http://codex.wordpress.org/Child_Themes). PHP & CSS edits should be made through a child theme. A template child theme is included in the theme package (downloaded from ThemeForest) inside the `resources` directory of the unpacked package.
 
-**Note:** WordPress stores theme customizations on a theme by theme basis. If you've made used the one-click demo or edited the theme customization options with MedicalPlus as your theme instead of your child theme, you will need to export and import your customizations using the [Customizer Import/Export plugin](https://wordpress.org/plugins/customizer-export-import/).
+**Note:** WordPress stores theme customizations on a theme by theme basis. If you've made used the one-click demo or edited the theme customization options with LawyerPlus as your theme instead of your child theme, you will need to export and import your customizations using the [Customizer Import/Export plugin](https://wordpress.org/plugins/customizer-export-import/).
 
 # Miscellaneous
 
 ## Permalink Settings
 
-The recommended permalink setting for use with MedicalPlus is the `Post name` default setting in the `Settings > Permalinks` page in the admin dashboard.
+The recommended permalink setting for use with LawyerPlus is the `Post name` default setting in the `Settings > Permalinks` page in the admin dashboard.
 
 ## Translation
 
-MedicalPlus supports [Translation](http://codex.wordpress.org/Translating_WordPress) through conventional WordPress translation method. For the translation template for the theme see the theme directory `medicalplus\lang\medicalplus.pot`. For more info on translating with WordPress, see the new [WordPress Handbook entry on translation](https://make.wordpress.org/polyglots/handbook/#).
+LawyerPlus supports [Translation](http://codex.wordpress.org/Translating_WordPress) through conventional WordPress translation method. For the translation template for the theme see the theme directory `medicalplus\lang\medicalplus.pot`. For more info on translating with WordPress, see the new [WordPress Handbook entry on translation](https://make.wordpress.org/polyglots/handbook/#).
 
 # Support
 
@@ -327,7 +327,7 @@ All MooPress support is provided through our [Support Ticketing System](http://m
 To submit a ticket, you'll need your theme purchase code. To retrieve it:
 
 1. Navigate in your browser to your ThemeForest Downloads page
-2. Find the **MedicalPlus** entry
+2. Find the **LawyerPlus** entry
 3. Click the `Download` dropdown and click `License certificate & purchase code (text)`
 4. Open the downloaded `txt` file.
 5. Locate the `Item Purchase Code:` entry which displays your purchase code
