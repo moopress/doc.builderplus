@@ -24,11 +24,11 @@ If your server is running PHP `v5.6`, you will need to specify `always_populate_
 3. Click `Add New` button
 4. Click `Upload Theme`
 5. Click `Choose File`
-6. From the unpacked directory, select `medicalplus.zip`
+6. From the unpacked directory, select `lawyerplus.zip`
 7. Click `Install Now`
 8. Click `Activate`
 
-**Note:** If you encounter a `style.css not found` error on trying to install the theme, that means that the package you uploaded is the incorrect package. Make sure that you're using the `medicalplus.zip` file from **inside the unzipped package** (*eg.* `<themeforest_unzipped_packaged>/medicalplus.zip`).
+**Note:** If you encounter a `style.css not found` error on trying to install the theme, that means that the package you uploaded is the incorrect package. Make sure that you're using the `lawyerplus.zip` file from **inside the unzipped package** (*eg.* `<themeforest_unzipped_packaged>/lawyerplus.zip`).
 
 ## Install Required Plugins
 LawyerPlus relies on a number of plugins to provide functionality. In order to install the plugins associated with the theme:
@@ -317,7 +317,7 @@ The recommended permalink setting for use with LawyerPlus is the `Post name` def
 
 ## Translation
 
-LawyerPlus supports [Translation](http://codex.wordpress.org/Translating_WordPress) through conventional WordPress translation method. For the translation template for the theme see the theme directory `medicalplus\lang\medicalplus.pot`. For more info on translating with WordPress, see the new [WordPress Handbook entry on translation](https://make.wordpress.org/polyglots/handbook/#).
+LawyerPlus supports [Translation](http://codex.wordpress.org/Translating_WordPress) through conventional WordPress translation method. For the translation template for the theme see the theme directory `lawyerplus\lang\lawyerplus.pot`. For more info on translating with WordPress, see the new [WordPress Handbook entry on translation](https://make.wordpress.org/polyglots/handbook/#).
 
 # Support
 
