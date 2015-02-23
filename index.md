@@ -11,7 +11,7 @@ image:
 
 # Prerequisites
 
-Before you get started creating your site using **Zebu**, you'll need to **setup your WordPress environment**. Zebu requires *WordPress v4.1* or greater. For more information on setting up you WordPress environment please refer to [WordPress Codex "Installing WordPress" entry](http://codex.wordpress.org/Installing_WordPress). If you're experiencing difficulty setting up you WordPress install, you'll need to contact your **hosting company** or your **local system administrator**.
+Before you get started creating your site using **MedicalPlus**, you'll need to **setup your WordPress environment**. MedicalPlus requires *WordPress v4.1* or greater. For more information on setting up you WordPress environment please refer to [WordPress Codex "Installing WordPress" entry](http://codex.wordpress.org/Installing_WordPress). If you're experiencing difficulty setting up you WordPress install, you'll need to contact your **hosting company** or your **local system administrator**.
 
 ## PHP Configuration
 If your server is running PHP `v5.6`, you will need to specify `always_populate_raw_post_data = -1` in your `php.ini` file and reload your web server. This addresses a known bug with the default PHP `v5.6` configuration. For more information on this issue, please see [this blog post](https://www.bram.us/2014/10/26/php-5-6-automatically-populating-http_raw_post_data-is-deprecated-and-will-be-removed-in-a-future-version/). If you find yourself unable to modify your `php.ini` file, please contact your hosting service or site manager.
@@ -24,11 +24,11 @@ If your server is running PHP `v5.6`, you will need to specify `always_populate_
 3. Click `Add New` button
 4. Click `Upload Theme`
 5. Click `Choose File`
-6. From the unpacked directory, select `zebu.zip`
+6. From the unpacked directory, select `medicalplus.zip`
 7. Click `Install Now`
 8. Click `Activate`
 
-**Note:** If you encounter a `style.css not found` error on trying to install the theme, that means that the package you uploaded is the incorrect package. Make sure that you're using the `zebu.zip` file from **inside the unzipped package** (*eg.* `<themeforest_unzipped_packaged>/medicalplus.zip`).
+**Note:** If you encounter a `style.css not found` error on trying to install the theme, that means that the package you uploaded is the incorrect package. Make sure that you're using the `medicalplus.zip` file from **inside the unzipped package** (*eg.* `<themeforest_unzipped_packaged>/medicalplus.zip`).
 
 ## Install Required Plugins
 MedicalPlus relies on a number of plugins to provide functionality. In order to install the plugins associated with the theme:
@@ -75,7 +75,7 @@ The Demo Content Import populates and configures your site content with commonly
 
 ## Widget Areas
 
-Zebu provides five widget areas. **Blog Sidebar** -- is the sidebar that's on the blog page. **Footer Column 1-4** are displayed in the footer area. To modify the widgets displayed on the site:
+MedicalPlus provides five widget areas. **Blog Sidebar** -- is the sidebar that's on the blog page. **Footer Column 1-4** are displayed in the footer area. To modify the widgets displayed on the site:
 
 1. Navigate to `Appearance > Widgets`
 2. Click and drag desired widgets to appropriate Widget Locations
@@ -317,7 +317,7 @@ The recommended permalink setting for use with MedicalPlus is the `Post name` de
 
 ## Translation
 
-Zebu supports [Translation](http://codex.wordpress.org/Translating_WordPress) through conventional WordPress translation method. For the translation template for the theme see the theme directory `medicalplus\lang\medicalplus.pot`. For more info on translating with WordPress, see the new [WordPress Handbook entry on translation](https://make.wordpress.org/polyglots/handbook/#).
+MedicalPlus supports [Translation](http://codex.wordpress.org/Translating_WordPress) through conventional WordPress translation method. For the translation template for the theme see the theme directory `medicalplus\lang\medicalplus.pot`. For more info on translating with WordPress, see the new [WordPress Handbook entry on translation](https://make.wordpress.org/polyglots/handbook/#).
 
 # Support
 
