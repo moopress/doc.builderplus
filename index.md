@@ -41,17 +41,17 @@ LawyerPlus relies on a number of plugins to provide functionality. In order to i
  8.  Click the `Bulk Actions` select control, choose the `Activate` option and click the `Apply` 
  9.  A notice `The following plugins were activated successfully: ...`
 
-![Install Required Plugins](https://lh5.googleusercontent.com/-RVogUao5W4k/VLQt-DuMXpI/AAAAAAAAAI0/U5eSCsImwoc/s0/Install+Required+Plugins+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress+--+Install.png "Install Required Plugins ‹ LawyerPlus — WordPress -- Install.png")
+![Install Required Plugins](images/install-required-plugins-page-install.png "Install Required Plugins ‹ LawyerPlus — WordPress -- Install.png")
 *Install Required Plugins Page (Install)*
 
 ----
 
-![Installation Feedback](https://lh4.googleusercontent.com/--Yrp2RAj6uw/VLQv5N0_dVI/AAAAAAAAAJI/AlRaXJ8zA3g/s0/Install+Required+Plugins+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress+--+Feedback.png "Install Required Plugins ‹ LawyerPlus — WordPress -- Feedback.png")
+![Installation Feedback](images/install-required-plugins-page-feedback.png "Install Required Plugins ‹ LawyerPlus — WordPress -- Feedback.png")
 *Install Required Plugins Page (Feedback)*
 
 ----
 
-![Activate Required Plugins](https://lh6.googleusercontent.com/-IK1YLsuNle0/VLQtAJ9x03I/AAAAAAAAAIo/B3Yaelydup0/s0/Install+Required+Plugins+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress.png "Install Required Plugins ‹ LawyerPlus — WordPress.png")
+![Activate Required Plugins](images/install-required-plugins-page-activate.png "Install Required Plugins ‹ LawyerPlus — WordPress.png")
 *Install Required Plugins Page (Activate)*
 
 ## Using The One-Click Importer
@@ -66,7 +66,7 @@ The Demo Content Import populates and configures your site content with commonly
  3. Wait on the page until the feedback indicates that the import is complete.
  4. Your site will be populated and configured with demo content now.
 
-![MooDemo Import Dashboard](https://lh3.googleusercontent.com/-y_qHs0zTXzU/VNTqkLymRnI/AAAAAAAAAMI/yIuzphiI3aY/s0/MooDemo+Import+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress.png "MooDemo Import")
+![MooDemo Import Dashboard](images/demo-import-initial-page.png "MooDemo Import")
 *Demo Import initial page*
 
 ----
@@ -86,14 +86,14 @@ LawyerPlus provides five widget areas. **Blog Sidebar** -- is the sidebar that's
 Google Fonts provides a library of custom fonts that allow you to customize the font on your site. There are lots of Google Fonts, so you will need to select which ones you want to make available on your site. In order to select your fonts:
 
 1. Navigate to `MooFonts` at the top level of the admin dashboard menu
-2. If there are no fonts previewed on the page, click the `Refresh Font List` button in the top right of the page. ![Refresh](https://lh3.googleusercontent.com/-189jEE_zKHE/VLQ0tOpKtmI/AAAAAAAAAKE/2ukJX46NTWs/s0/MooFonts+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress.png "MooFonts ‹ LawyerPlus — WordPress.png")
+2. If there are no fonts previewed on the page, click the `Refresh Font List` button in the top right of the page. ![Refresh](images/refresh-font-list.png "MooFonts ‹ LawyerPlus — WordPress.png")
 3. Browse the fonts by scrolling up and down the page. If you have a particular font in mind, use the search box in order to filter the fonts.
 4. Once you've decided on a font, click its associated `Add to collection` button
 5. This will add the font to the `Your Font Collection` display on the right side of the page.
 6. For the font you've added, select the font variants you want available on your site. By selecting the variant checkboxes and the clicking the associated `Save Settings` button.
 7. The font & the selected variants will now be available on the site.
 
-![Populated](https://lh5.googleusercontent.com/-hZHFk2wDNAs/VLQ1XB7IXrI/AAAAAAAAAKQ/mB90BBfB7zc/s0/MooFonts+%E2%80%B9+LawyerPlus+%E2%80%94+WordPress+--+populated.png "MooFonts ‹ LawyerPlus — WordPress -- populated.png")
+![Populated](images/populated-fonts.png "MooFonts ‹ LawyerPlus — WordPress -- populated.png")
 *Populated Fonts*
 
 ### Configuring/Customizing Site Fonts
@@ -104,7 +104,7 @@ Google Fonts provides a library of custom fonts that allow you to customize the 
 4. Click the `Save & Publish` button to save the customizations
 5. Now your site will have the specified fonts applied.
 
-![Customize Fonts](https://lh3.googleusercontent.com/-7CRt2IE2eng/VLU-ADLFFLI/AAAAAAAAAK0/tTdobuNwZig/s0/customize-fonts.png "customize-fonts.png")
+![Customize Fonts](images/customize-fonts.png "customize-fonts.png")
 *Customize Fonts*
 
 ## Icon Sets
@@ -116,7 +116,7 @@ A number of the shortcodes available when using LawyerPlus, involve icons. By de
 4. Click `Add Font Zip`
 5. The icon set will be displayed in preview in the Icon Dashboard. When using icon type shortcodes with Visual Composer, previews of the icon will be available for selection.
 
-![Icon Dashboard](https://lh5.googleusercontent.com/-3P-H8CVxbh0/VLU-gai2RgI/AAAAAAAAALA/_bsGfNtQUsY/s0/icon-dashboard.png "icon-dashboard.png")
+![Icon Dashboard](images/icon-dashboard.png "icon-dashboard.png")
 *Icon Dashboard*
 
 ## Contact Form 7
@@ -128,7 +128,7 @@ Contact Form 7 is a plugin that allows for the creation of contact forms on your
 4. Edit the `To` field.
 5. Click the `Save` button to save your change
 
-![Contact Form Edit](https://lh4.googleusercontent.com/-3wsyE8hEpNo/VLU_NqhIHNI/AAAAAAAAALM/wbNJNwqupOc/s0/contact-form.png "contact-form.png")
+![Contact Form Edit](images/contact-form-edit-page.png "contact-form.png")
 *Contact Form Edit Page*
 
 ----
@@ -275,7 +275,7 @@ LawyerPlus provides a number of page level options to customize the look of indi
 * **Remove Vertical Page Padding** -- will remove the top and bottom padding of the page content area
 * **Page Background Color** -- this option will override the site page background color customization option with whatever color is set.
 
-![Page Metabox](https://lh4.googleusercontent.com/-Y8lrTSqyzmo/VLVAFmXwdpI/AAAAAAAAALg/EE_sytUSM2w/s0/page-metabox.png "page-metabox.png")
+![Page Metabox](images/page-appearance-metabox.png "page-metabox.png")
 
 ## Page Templates
 LawyerPlus supplies three page templates: 
