@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            LawyerPlus
+title:            BuilderPlus
 locale:           en_US
-url:              http://moopress.github.io/doc.lawyerplus
+url:              http://moopress.github.io/doc.builderplus
 
 
 # Jekyll configuration
