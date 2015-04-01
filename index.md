@@ -177,23 +177,23 @@ BuilderPlus provides its site options through the WordPress Customizer. To acces
 	* Change the link location of the button by editing the `href` attribute of the `a` element
 	* Change the background image
 
-## Doctor Profiles
+## People Profiles
 
-1. Navigate to `Doctors > Department` in the admin dashboard
+1. Navigate to `People > Department` in the admin dashboard
  2. Use the `Add New Department` Form to create all the applicable departments
  3. Delete the demo departments
- 4. Navigate to `Doctors > Doctors` to see the list of demo doctor profiles
- 5. For each Doctor in the practice
-	* Click the `Doctors > Add New` menu item
-	* Enter the name of the doctor as the title (ex. "Dr. John Doe")
-	* In the TinyMCE editor, enter the bio of the doctor
-	* In the `Excerpt` metabox, enter a short intro to the doctor's bio
-	* Fill out the fields in the `Doctor Profile` metabox
-	* Use the `Department` metabox to choose the doctor belongs to
-	* Use the `Featured Image` metabox to upload a headshot of the doctor
+ 4. Navigate to `People > People` to see the list of demo person profiles
+ 5. For each Person in the organization:
+	* Click the `People > Add New` menu item
+	* Enter the name of the person as the title (ex. "Dr. John Doe")
+	* In the TinyMCE editor, enter the bio of the person
+	* In the `Excerpt` metabox, enter a short intro to the person's bio
+	* Fill out the fields in the `Person Profile` metabox
+	* Use the `Department` metabox to choose the person belongs to
+	* Use the `Featured Image` metabox to upload a headshot of the person
 	* Click the blue `Publish` button in the `Publish` metabox
- 6. Navigate to `Doctors > Doctors` to see the list of doctor profiles
- 7. Delete the demo doctor profiles
+ 6. Navigate to `People > People` to see the list of person profiles
+ 7. Delete the demo person profiles
 
 ## Photos
 
